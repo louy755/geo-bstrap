@@ -7,6 +7,9 @@ end
 
 gem 'geocoder'
 gem 'bootstrap-generators'
+gem 'record_tag_helper', '~> 1.0'
+gem 'gmaps4rails'
+gem 'underscore-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
