@@ -25,5 +25,8 @@
 
   <dt>Longitude:</dt>
   <dd><%= @user.longitude %></dd>
+  
+  
+  <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@user.latitude}%2C#{@user.longitude}" %>
 
 </dl>
